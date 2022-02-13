@@ -156,7 +156,7 @@ def get_readable_message():
                 except:
                     pass    
                 try:
-                    msg += f"\n<b>Engine:</b> Qbit\n<b>🌍:</b> {download.torrent_info().num_leechs}" \
+                    msg += f"\n<b>Engine:</b> Qbit\n<b>🦠:</b> {download.torrent_info().num_leechs}" \
                            f" | <b>🌱:</b> {download.torrent_info().num_seeds}"
                 except:
                     pass
